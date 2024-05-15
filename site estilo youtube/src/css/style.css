@@ -1,0 +1,76 @@
+html{
+    font-family: 'roboto', sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    background-color: #F7F7F7; 
+    display: grid;
+    grid: 
+    "esquerda  direita-topo" 
+    "esquerda  direita-baixo";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    gap: 20px;
+    padding: 35px;
+}
+
+.video-principal{
+    grid-area: esquerda;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.propaganda{
+    grid-area: direita-topo;
+    background: #C4C4C4;
+    text-align: center;
+}
+
+.videos-sugeridos{
+    grid-area: direita-baixo;
+}
+
+h1{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.video-principal .visualizacoes{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.videos-sugeridos .video{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.videos-sugeridos .video .titulo{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.videos-sugeridos .video p{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.videos-sugeridos img{
+    width: 101px;
+    height: 71px;
+}
+
+.video-principal img{
+    width: 543px;
+    height: 217px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+

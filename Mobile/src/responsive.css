@@ -1,0 +1,51 @@
+body{
+    font-family: 'public sans', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 47px;
+    margin-bottom: 100px;
+}
+
+.logo h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu a{
+    font-size: 40px;
+    font-weight: 400;
+    padding: 17px 38px;
+}
+
+.menu a:hover{
+    color: #ffff;
+    background-color: #5BC241;
+}
+
+.menu .botao{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffff;
+    background-color: #5BC241;
+    border-radius: 10px;
+}
